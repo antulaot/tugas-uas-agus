@@ -1,9 +1,9 @@
 <?php
 function getDBConnection() {
-    $host = 'localhost';
-    $dbname = 'marketplace_agus';
-    $user = 'marketplace';
-    $pass = '123456';
+    $host = 'mysql.railway.internal';
+    $dbname = 'railway';
+    $user = 'root';
+    $pass = 'kdCwqjtCZLWBLWZMWpphoCBpIXNiZhdx';
 
     try {
         return new PDO("mysql:host=$host;dbname=$dbname", $user, $pass, [
